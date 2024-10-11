@@ -15,7 +15,7 @@ ul, ol, li{
 
 header{
     height: 100px;
-    width: 1920px;
+    width: 100vw;
     display: flex;
     background-color:#b43336;
 }
@@ -44,10 +44,58 @@ header{
     font-size: 18px;
     margin-top: 50px;
     color: white;
+    font-family: "Roboto", sans-serif;
 
 }
 
 main{
-    background-color: aqua;
-    height: 980px;
+    background-color: #b43336;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cocacola{
+    height: 60%;
+    width: 100%;
+    margin-top: -15vh;
+    background-image: url(./img/background-image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.garrafa{
+   height: 80%;
+   width: 30%; 
+   top: 10%;
+   position: absolute;
+   background-image: url(./img/coca-cola.png);
+   background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.txtmain{
+    font-size: 32px;
+    width: 400px;
+    height: 300px;
+    margin-right: 40vw;
+    position: absolute;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.global{
+    height: 7vh;
+    width: 7vw;
+    margin-top: 50vh;
+    margin-left: 95vh;
+    margin-right: 100px;
+    background-image: url(./img/map.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
 }
