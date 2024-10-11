@@ -14,6 +14,40 @@ ul, ol, li{
 }
 
 header{
-    height: 200px;
-    color: aquamarine;
+    height: 100px;
+    width: 1920px;
+    display: flex;
+    background-color:#b43336;
+}
+
+.menu{
+    flex-direction: row;
+    display: flex;
+}
+
+
+.menu .imgmenu{
+    margin-top: 50px;
+    margin-left: 80px;
+    display: flex;
+    height: 20px;
+    width: 30px;
+    background-image: url(./img/menu-burger.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.menu .txtheader{
+    margin-left: 20px;
+    font-size: 18px;
+    margin-top: 50px;
+    color: white;
+
+}
+
+main{
+    background-color: aqua;
+    height: 980px;
 }
